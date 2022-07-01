@@ -61,10 +61,82 @@ nav a:hover {
     text-decoration: underline;
 }
 
-main {
+#principal {
+    min-width: 30vw;
+    margin: auto;
     background-color: white;
+    box-shadow: 6px 6px 13px 0px rgba(255, 255, 255, 0.253);
 }
 
+
+
+section > h1 {
+    font-size: 2em;
+    font-family: var(--font-titulos);
+    padding: 15px;
+    color: var(--cor02);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.397);
+}
+
+section > h2 {
+    font-size: 2em;
+    font-family: var(--font-titulos);
+    color: var(--cor03);
+    padding: 15px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.363);
+}
+
+section > p {
+    background-color: rgba(0, 0, 0, 0.432);
+    line-height: 2em;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: var(--font-textos);
+    padding: 15px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
+    display: inline-block;
+}
+
+section#img01 {
+    background-image: url("../img/carro-img-m.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img02 {
+    background-image: url("../img/suspensao-m.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img03 {
+    background-image: url("../img/cambio-m.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+aside > p {
+    line-height: 2em;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: var(--font-textos);
+    padding: 15px;
+}
+
+aside h2 {
+    font-size: 2em;
+    font-family: var(--font-titulos);
+    padding: 15px;
+    color: var(--cor03);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.363);
+}
 
 footer {
     background-color: var(--cor04);
